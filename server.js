@@ -1,11 +1,6 @@
 const app = require('./config/express')();
 const port = app.get('port');
 
-
-
-function xyz(param, param2){
-
-}
 // Routes
 app.get('/result/iterativo/:m/:n', function(request, response) {
 
